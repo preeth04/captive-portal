@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "moduleDetection": "auto",
+    "outDir": "./dist",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "rootDir": "./src",
+    "strict": true,
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "importHelpers": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
